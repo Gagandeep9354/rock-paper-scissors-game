@@ -66,7 +66,7 @@ var humanSelection = getHumanChoice();
 var computerSelection = getComputerChoice();
 function playGame(){
     let i = 0;
-    while (i<5){
+    while (i<=4){
         playRound(humanSelection, computerSelection);
         humanSelection = getHumanChoice();
         computerSelection = getComputerChoice();
