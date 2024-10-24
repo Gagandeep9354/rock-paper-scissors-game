@@ -6,7 +6,7 @@ const scissorsButton = document.getElementById("scissors");
 const rockButton = document.getElementById("rock");
 
 const updateScoreDisplay = () => {
-const displayContainer = document.getElementsByClassName("output-container")[0];
+const displayContainer = document.getElementsByClassName("display")[0];
 displayContainer.innerHTML = `<p> Human Score: ${humanScore} <br> Computer Score: ${computerScore}`;
 }
 
@@ -80,7 +80,6 @@ function playGame(){
             console.log ( "Human CHoice: + " + humanChoice + ", Computer Choice: " + computerChoice);
             playRound(humanChoice, computerChoice);
             console.log("Human Score: " + humanScore + ", Computer Score: " + computerScore);
-        } else {
         }
 }
 
